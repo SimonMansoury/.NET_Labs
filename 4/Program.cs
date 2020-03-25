@@ -118,6 +118,18 @@ namespace _4Lab
                 Console.WriteLine(a);
             Console.WriteLine(new string('~', 90));
 
+
+            Header.Write("Group by cinema name");
+            var GroupByCinemaName = Cinemas.GroupBy(x => x.CinemaName).OrderBy(x => x.Key).Select(x => x.Key);
+            foreach (var a in GroupByCinemaName)
+                Console.WriteLine(a);
+            Console.WriteLine(new string('~', 90));
+
+            Header.Write("Union two collections");
+            var UnionTwoCollections = CinemaNewerThan2010.Union(CinemasWithSeatsBiggerThan200);
+            foreach(var a in UnionTwoCollections)
+                Console.WriteLine(a);
+
             Console.ReadLine();
         }
     }
