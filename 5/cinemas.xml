@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Cinemas>
+  <Cinema id="0">
+    <name>cinemaOne</name>
+    <seatsNum>200</seatsNum>
+    <cinemaRang>WideFilms</cinemaRang>
+    <cinemaYear>2001</cinemaYear>
+  </Cinema>
+  <Cinema id="1">
+    <name>cinemaTwo</name>
+    <seatsNum>250</seatsNum>
+    <cinemaRang>StereoSound</cinemaRang>
+    <cinemaYear>2004</cinemaYear>
+  </Cinema>
+  <Cinema id="2">
+    <name>cinema SAS</name>
+    <seatsNum>228</seatsNum>
+    <cinemaRang>VideoFilms</cinemaRang>
+    <cinemaYear>2007</cinemaYear>
+  </Cinema>
+  <Cinema id="3">
+    <name>cinema shicuchi</name>
+    <seatsNum>123</seatsNum>
+    <cinemaRang>WideFilms</cinemaRang>
+    <cinemaYear>2016</cinemaYear>
+  </Cinema>
+  <Cinema id="4">
+    <name>invoker cinema</name>
+    <seatsNum>321</seatsNum>
+    <cinemaRang>StereoSound</cinemaRang>
+    <cinemaYear>2004</cinemaYear>
+  </Cinema>
+  <Cinema id="5">
+    <name>valve cinema</name>
+    <seatsNum>421</seatsNum>
+    <cinemaRang>StereoSound</cinemaRang>
+    <cinemaYear>2019</cinemaYear>
+  </Cinema>
+  <Cinema id="6">
+    <name>flex </name>
+    <seatsNum>228</seatsNum>
+    <cinemaRang>stereoSound</cinemaRang>
+    <cinemaYear>2004</cinemaYear>
+  </Cinema>
+  <Cinema id="7">
+    <name>cinemaWithMaxId</name>
+    <seatsNum>210</seatsNum>
+    <cinemaRang>VideoFilms</cinemaRang>
+    <cinemaYear>2018</cinemaYear>
+  </Cinema>
+</Cinemas>
